@@ -1,9 +1,9 @@
-## EXP NO:1 C PROGRAM FOR ARRAY OF STRUCTURE TO CHECK ELIGIBILITY FOR THE VACCINE.
+### EXP NO:1 C PROGRAM FOR ARRAY OF STRUCTURE TO CHECK ELIGIBILITY FOR THE VACCINE.
 
-Aim:
+## Aim:
 To write a C program for array of structure to check eligibility for the vaccine person age above 6 years of age.
 
-Algorithm:
+## Algorithm:
 1.	Declare structure eligible with age (integer) and n (character array)
 2.	Declare variable e of type eligible
 3.	Input age and name using scanf, store in e
@@ -14,7 +14,7 @@ Else
 5.	Print details (e.age, e.n)
 6.	Return 0
  
-Program:
+## Program:
 
         #include<stdio.h> 
         struct eligib
@@ -38,22 +38,22 @@ Program:
          }
 
 
-Output:
+## Output:
 
 ![437295418-875d7abd-3282-4d64-96f7-b69834282f0a](https://github.com/user-attachments/assets/bbf7f61d-81ff-47ae-a7d7-85e1e36215dd)
 
 
 
-Result:
+## Result:
 Thus, the program is verified successfully. 
 
 
 
-EXP NO:2 C PROGRAM FOR PASSING STRUCTURES AS FUNCTION ARGUMENTS AND RETURNING A STRUCTURE FROM A FUNCTION
-Aim:
+### EXP NO:2 C PROGRAM FOR PASSING STRUCTURES AS FUNCTION ARGUMENTS AND RETURNING A STRUCTURE FROM A FUNCTION
+## Aim:
 To write a C program for passing structure as function and returning a structure from a function
 
-Algorithm:
+## Algorithm:
 1.	Define structure numbers with members a and b.
 2.	Declare variable n of type numbers.
 3.	Prompt the user to enter values for a and b.
@@ -62,7 +62,7 @@ Algorithm:
 6.	Print the result returned by the add function.
 7.	Return 0
  
-Program:
+## Program:
 
        #include<stdio.h>
        struct numbers{
@@ -84,7 +84,7 @@ Program:
 
 
 
-Output:
+## Output:
    
    ![437295527-c4fda8ea-7b67-47c2-9123-dfdae6e283a6](https://github.com/user-attachments/assets/22589bbf-cfd5-4a85-8783-af5a00ecfd99)
 
@@ -94,17 +94,17 @@ Output:
 
 
 
-Result:
+## Result:
 Thus, the program is verified successfully
 
 
  
-EXP.NO:3 C PROGRAM TO READ A FILE NAME FROM USER AND WRITE THAT FILE USING FOPEN()
+### EXP.NO:3 C PROGRAM TO READ A FILE NAME FROM USER AND WRITE THAT FILE USING FOPEN()
 
-Aim:
+## Aim:
 To write a C program to read a file name from user
 
-Algorithm:
+## Algorithm:
 1.	Include the necessary header file stdio.h.
 2.	Begin the main function.
 3.	Declare a file pointer p.
@@ -121,7 +121,7 @@ Use scanf to input the file name into the name array.
 4.	End the main function.
 5.	Return 0 to indicate successful program execution.
  
-Program:
+## Program:
 
             #include <stdio.h>
             int main()
@@ -140,7 +140,7 @@ Program:
 
 
 
-Output:
+## Output:
 
 
 
@@ -156,15 +156,15 @@ Output:
 
 
 
-Result:
+## Result:
 Thus, the program is verified successfully
  
 
 
-EXP NO:4   PROGRAM TO READ A FILE NAME FROM USER, WRITE THAT FILE AND INSERT TEXT IN TO THAT FILE
-Aim:
+### EXP NO:4   PROGRAM TO READ A FILE NAME FROM USER, WRITE THAT FILE AND INSERT TEXT IN TO THAT FILE
+## Aim:
 To write a C program to read, a file and insert text in that file
-Algorithm:
+## Algorithm:
 1.	Include the necessary header file stdio.h.
 2.	Begin the main function.
 3.	Declare a file pointer p.
@@ -181,7 +181,7 @@ Use scanf to input the file name into the name array and the number of strings i
 4.	End the main function.
 5.	Return 0 to indicate successful program execution.
  
-Program:
+## Program:
 
             #include <stdio.h>
             int main()
@@ -208,28 +208,26 @@ Program:
 
 
 
-Output:
+## Output:
+
+
+
+ ![437295751-4a926356-22df-4a11-a5f8-6f7b374e2a86](https://github.com/user-attachments/assets/612f8dfc-29a7-462f-9eea-4c419e98e649)
 
 
 
 
-
-![437295751-4a926356-22df-4a11-a5f8-6f7b374e2a86](https://github.com/user-attachments/assets/612f8dfc-29a7-462f-9eea-4c419e98e649)
-
-
-
-
-Result:
+## Result:
 Thus, the program is verified successfully
 
 
 
-Ex No 5 : C PROGRAM TO DISPLAY STUDENT DETAILS USING STRUCTURE
+### Ex No 5 : C PROGRAM TO DISPLAY STUDENT DETAILS USING STRUCTURE
 
-Aim:
+## Aim:
 The aim of this program is to dynamically allocate memory to store information about multiple subjects (name and marks), input the details for each subject, and then display the stored information. Finally, it frees the allocated memory to prevent memory leaks.
 
-Algorithm:
+## Algorithm:
 1.Input the number of subjects.
 
 2.Read the integer value n from the user, which represents the number of subjects.
@@ -256,7 +254,7 @@ Algorithm:
 
 13.End the program by returning 0.
 
-Program:
+## Program:
 
            #include <stdio.h>
            #include <stdlib.h>
@@ -293,7 +291,7 @@ Program:
 
 
 
-Output:
+## Output:
 
 
 
@@ -306,5 +304,5 @@ Output:
 
 
 
-Result:
+## Result:
 Thus, the program is verified successfully
